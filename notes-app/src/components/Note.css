@@ -1,0 +1,47 @@
+/* Note.css */
+.note {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note p {
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #333;
+}
+
+.note textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 1em;
+}
+
+/* Style for the action buttons */
+.note-actions {
+  display: flex;
+  justify-content: space-between; /* This ensures buttons are on the same row */
+}
+
+.note-actions button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+
