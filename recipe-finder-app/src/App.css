@@ -1,0 +1,33 @@
+body{
+  background: radial-gradient(circle, rgba(255,255,157,1) 0%, rgba(161,255,161,1) 100%);
+}
+.App {
+  text-align: center;
+  padding: 100px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom:25px;
+  width: 350px;
+}
+
+input:hover, button:hover{
+  scale:1.05;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color:white;
+  background-color: red;
+  font-weight:bold;
+  border-radius:50px;
+}
+
+.error {
+  color: red;
+  margin: 20px 0;
+}
